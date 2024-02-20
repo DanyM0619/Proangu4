@@ -1,0 +1,8 @@
+<p>El comienzo de pipes</p>
+
+<div *ngFor="let boy of buyList">
+    <span>Nombre: {{boy.name | capitalText}}</span>
+    <span>Precio: {{boy.price | currency}}</span>
+    <span>Fecha: {{boy.date | date: 'dd/MMM/yyyy'}}</span>
+
+</div>
