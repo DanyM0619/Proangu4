@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { CapitalTextPipe } from './capital-text.pipe';
 import { LifecycleComponent } from './lifecycle/lifecycle.component';
+import { GreetingsComponent } from './greetings/greetings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PipesComponent,
     CapitalTextPipe,
-    LifecycleComponent
+    LifecycleComponent,
+    GreetingsComponent
   ],
   imports: [
     BrowserModule,
